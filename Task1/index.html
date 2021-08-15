@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!--JQuery CDN CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Our CSS File-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Adopt</title>
+</head>
+<body>
+  <section class="sect__navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container d-flex justify-content-between">
+        <div class="branding d-flex align-items-center gap-2">
+          <div class="brand__logo">
+            
+            <h1 class="heading">Adopt</h1>
+          </div>
+          
+        </div>
+        <div class="navbar__items__list">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav d-flex gap-5">
+              <a class="nav-link active " aria-current="page" style="color: green; font-weight: 650;" href="#HomePage">Home</a>
+              <a class="nav-link active " aria-current="page" style="color: green; font-weight: 650;" href="#Prjects">Projects</a>
+              <a class="nav-link active " aria-current="page" style="color: green; font-weight: 650;"  href="#Pricing">Pricing</a>
+              <a class="nav-link active " aria-current="page" style="color: green; font-weight: 650;" href="#Team">Team</a>
+              <a class="nav-link active " aria-current="page" style="color: green; font-weight: 650;" href="#Blog">Blog</a>
+              <a class="nav-link active " aria-current="page" style="color: green; font-weight: 650;" href="#Contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+    
+
+  <div class="container__hero">
+    <!--Carousal-->
+    <section class="sect__carousal">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/77.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <img src="img/pet.png" alt="">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/78.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <img src="img/pet.png" alt="">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/79.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <img src="img/pet.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!--Home-->
+  <section class="container home__container">
+    <div class="row">
+      <div class="col text-center">
+        <h1 class="text-center" id="HomePage">
+          <strong>Welcome to Adopt</strong>
+        </h1>
+      </div>
+    </div>
+    <div class="d-md-flex mt-sm-3 mt-md-5 mb-3 mb-lg-5">
+      <div class="text-center home__description" style="font-size: larger;">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut explicabo. Nemo enim ipsam voluptatem quia, sed quia consequuntur magni minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. Excepteuo vitae dicta ad quasi vitae proident, mollit anim id est ad quasi enim ipsam voluptatem quia, sed quia consequuntur magni minim veniam, quis nostrud exercitation ullamco architecto beatae vitae dicta enim ipsam voluptatem quia, sed quia consequuntur magni minim veniam, quis nostrud exercitation ullamco laborum."
+      </div>
+      <div class=" text-center home__img">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/554/747/small/umbrella_010.jpg" alt="umbrella image" class="rounded mx-auto d-block umbrella__img">
+      </div>
+    </div>
+    <div class="home__info__container mt-sm-3 d-md-flex">
+      <div class="home__info p-5 text-center">
+        <div class="home__info__img mb-2">
+          <img src="img/bell.png" alt="bell image" class="bell__img">
+        </div>
+        <div class="home__info__title mb-sm-2">
+          <h4>Lorem Ipsum</h4>
+        </div>
+        <div class="home__info__description">
+          At vero eos et accusamus et qui voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.
+        </div>
+        <div class="home__info__button">
+          <button type="button" class="btn btn__info__home mt-3">Learn More</button>
+        </div>
+      </div>
+
+      <div class="home__info p-5 text-center">
+        <div class="home__info__img mb-2">
+          <img src="img/envelop.png" alt="bell image" class="bell__img">
+        </div>
+        <div class="home__info__title mb-sm-2">
+          <h4>Dolor Sit</h4>
+        </div>
+        <div class="home__info__description">
+          At vero eos et accusamus et qui voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.
+        </div>
+        <div class="home__info__button">
+          <button type="button" class="btn btn__info__home mt-3">Learn More</button>
+        </div>
+      </div>
+
+      <div class="home__info p-5 text-center">
+        <div class="home__info__img mb-2">
+          <img src="img/ward.png" alt="bell image" class="bell__img">
+        </div>
+        <div class="home__info__title mb-sm-2">
+          <h4>Consectetur</h4>
+        </div>
+        <div class="home__info__description">
+          At vero eos et accusamus et qui voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.
+        </div>
+        <div class="home__info__button">
+          <button type="button" class="btn btn__info__home mt-3">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <div style="float:left; width: 50%;"><hr/></div>
+    <div style="float:right; width: 50%;"><hr/></div>
+  </section>
+
+  <!--Projects-->
+  <section class="projects__container mt-5">
+    <div class="project__header text-center mt-5 mb-5">
+      <h1 id="Prjects"><strong>Projects</strong></h1>
+    </div>
+    <div class="card__container__master d-md-flex">
+      <div class="project__card__container pb-3" style="background-color: #6ec4c7;">
+        <div class="project__card__image">
+          <img src="img/1.jpg" alt="project image" class="project__img" style="height: 400px; width: 100%;"/>
+        </div>
+        <div class="container project__card__title ps-4 pe-4 mt-3">
+          <h3>Project Name</h3>
+        </div>
+        <div class=" container project__card__description ps-4 pe-4">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </div>
+        <div class="container project__card__button ps-4 pe-4">
+          <button type="button" class="btn btn__project mt-3">Learn More</button>
+        </div>
+      </div>
+      <div class="project__card__container pb-3" style="background-color: #78a5a1;">
+        <div class="project__card__image">
+          <img src="img/3.jpg" alt="project image" class="project__img" style="height: 400px; width: 100%;"/>
+        </div>
+        <div class="container project__card__title ps-4 pe-4 mt-3">
+          <h3>Project Name</h3>
+        </div>
+        <div class=" container project__card__description ps-4 pe-4">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </div>
+        <div class="container project__card__button ps-4 pe-4">
+          <button type="button" class="btn btn__project mt-3">Learn More</button>
+        </div>
+      </div>
+  
+      <div class="project__card__container pb-3" style="background-color: #6ec4c7;">
+        <div class="project__card__image">
+          <img src="img/4.jpg" alt="project image" class="project__img" style="height: 400px; width: 100%;"/>
+        </div>
+        <div class="container project__card__title ps-4 pe-4 mt-3">
+          <h3>Project Name</h3>
+        </div>
+        <div class=" container project__card__description ps-4 pe-4">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </div>
+        <div class="container project__card__button ps-4 pe-4">
+          <button type="button" class="btn btn__project mt-3">Learn More</button>
+        </div>
+      </div>
+      <div class="project__card__container pb-3" style="background-color: #78a5a1;">
+        <div class="project__card__image">
+          <img src="img/5.jpg" alt="project image" class="project__img" style="height: 400px; width: 100%;"/>
+        </div>
+        <div class="container project__card__title ps-4 pe-4 mt-3">
+          <h3>Project Name</h3>
+        </div>
+        <div class=" container project__card__description ps-4 pe-4">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </div>
+        <div class="container project__card__button ps-4 pe-4">
+          <button type="button" class="btn btn__project mt-3">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Pricing Table-->
+  <section class="container">
+    <div class="price__header mt-5 mb-5 text-center">
+      <h1 id="Pricing">
+        <strong>Pricing Table</strong>
+      </h1>
+    </div>
+    <div class="pricetable__container d-md-flex justify-content-evenly">
+      <div class="price__card text-center mt-5">
+        <div class="price__title">
+          <h4>STANDARD PLAN</h4>
+        </div>
+        <div class="price__tag">
+          <span style="color: rgba(0, 0, 0, 0.335);">Free</span>
+        </div>
+        <div class="price__detail">
+          10 users included <br />
+          2 GB of storage <br />
+          Email support <br />
+          Help center access
+        </div>
+        <div class="price__btn">
+          <button type="button" class="btn btn__info__home mt-3 ps-5 pe-5">Buy</button>
+        </div>
+      </div>
+
+      <div class = "vertical"></div>
+
+      <div class="price__card text-center mt-5">
+        <div class="price__title">
+          <h4>BUSINESS PLAN</h4>
+        </div>
+        <div class="price__tag">
+          <span style="color: rgba(0, 0, 0, 0.335);">37$/mo</span>
+        </div>
+        <div class="price__detail">
+          20 users included <br />
+          10 GB of storage <br />
+          Priority email support <br />
+          Help center access
+        </div>
+        <div class="price__btn">
+          <button type="button" class="btn btn__info__home mt-3 ps-5 pe-5">Buy</button>
+        </div>
+      </div>
+
+      <div class = "vertical"></div>
+
+      <div class="price__card text-center mt-5">
+        <div class="price__title">
+          <h4>PREMIUM PLAN</h4>
+        </div>
+        <div class="price__tag">
+          <span style="color: rgba(0, 0, 0, 0.335);">69$/mo</span>
+        </div>
+        <div class="price__detail">
+          30 users included <br />
+          15 GB of storage <br />
+          Phone and email support <br />
+          Help center access
+        </div>
+        <div class="price__btn">
+          <button type="button" class="btn btn__info__home mt-3 ps-5 pe-5">Buy</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!--Video Projects-->
+  <section class="vdo__project__container mt-5 text-center pt-3 pb-3" style="background-image: url(contents/moroccan-flower-dark.png); color: white;">
+    <div class="vdo__header mt-5">
+      <h1 id="Video Projects">
+        <strong>Video Projects</strong>
+      </h1>
+    </div>
+    <div class="vdo__slider__container mt-5 mb-3">
+      <div class="row slider-01 container text-center" style="width: 100%;">
+
+        <div class="slide" style="width: 100%;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rIYZH-tutv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="slide" style="width: 100%;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wrAz9Doppec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="slide" style="width: 100%;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ExxWgfLV-20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="slide" style="width: 100%;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/iwMqsKDTdQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="slide" style="width: 100%;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/iKA6ZXpGcGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="slide" style="width: 100%;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/iKA6ZXpGcGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- Team-->
+  <section class="container mt-5">
+    <div class="team__header text-center">
+      <h1 id="Team">
+        <strong>Adopt Team</strong>
+      </h1>
+    </div>
+    <div class="team__info__container">
+      <div class="team__info__row__1">
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__img">
+            <img src="img/7.jpg" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+          <div class="team__member__card__info text-center">
+            <h4>Sara Johnson</h4>
+            <span>Creative Head</span>
+          </div>
+        </div>
+
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__card__info text-center">
+            <h4>Aliza</h4>
+            <span>SEO Monster</span>
+          </div>
+          <div class="team__member__img">
+            <img src="img/8.jpg" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__img">
+            <img src="img/9.jpg" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+          <div class="team__member__card__info text-center">
+            <h4>Celian John</h4>
+            <span>Senior Designer</span>
+          </div>
+        </div>
+
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__card__info text-center">
+            <h4>JIMMY SMITH</h4>
+            <span>Marketing Manager</span>
+          </div>
+          <div class="team__member__img">
+            <img src="img/11.jpg" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__img">
+            <img src="img/12.jpg" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+          <div class="team__member__card__info text-center">
+            <h4>Matt Alex</h4>
+            <span>Art Director</span>
+          </div>
+        </div>
+
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__card__info text-center">
+            <h4>CHRIS PHILIPS</h4>
+            <span>Senior Designer</span>
+          </div>
+          <div class="team__member__img">
+            <img src="img/13.jpg" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="gallery" id="gallery">
+    <svg
+      class="svg-path"
+      width="100%"
+      height="36"
+      viewBox="0 0 1440 36"
+      class="u-block"
+      xmlns="http://www.w3.org/2000/svg"
+      style="width: 100%; height: auto"
+    >
+      <rect width="100%" height="100%" fill="#ffffff"></rect>
+      <path
+        d="M1440 36V8.2s-105.6-1.2-160.7-6a877 877 0 00-150.5 2.5c-42.1 3.9-140 15-223 15C754 19.6 700.3 6.8 548.8 7c-143.7 0-273.4 11.5-350 12.6-76.6 1.2-198.8 0-198.8 0V36h1440z"
+        fill="rgb(5, 5, 5)"
+      ></path>
+    </svg>
+    <h1 class="center gallery-head" id="section-head" style="text-align: center;">Life in Adapt</h1>
+    <div class="showcasediv">
+      <img
+        src="img/91.jpg"
+        alt=""
+        class="main-showcase"
+        id="showcase-img"
+      />
+    </div>
+    <div class="container">
+      <div class="image-container flex dragscroll" id="showcase-div">
+        <button class="navigate nav-left">
+          <i class="fas fa-arrow-circle-left"></i>
+        </button>
+        <div class="images ">
+          <img src="img/92.jpg" alt="" class="thumbnails" id="img1" />
+          <img src="img/93.jpg" alt="" class="thumbnails" id="img2" />
+          <img src="img/94.jpg" alt="" class="thumbnails" id="img3" />
+          <img src="img/95.jpg" alt="" class="thumbnails" id="img4" />
+          <img src="img/96.jpg" alt="" class="thumbnails" id="img5" />
+          <img src="img/97.jpg" alt="" class="thumbnails" id="img6" />
+          <img src="img/98.jpg" alt="" class="thumbnails" id="img7" />
+          <img src="img/91.jpg" alt="" class="thumbnails" id="img8" />
+        </div>
+        <button class="navigate nav-right">
+          <i class="fas fa-arrow-circle-right"></i>
+        </button>
+      </div>
+      <hr>
+    </div>
+  </section>
+   
+
+  
+
+  <!--SignUP-->
+  <section class="signup__master__container pt-4 pb-4" style="background-image: url(img/dog2.jpg); width: 100%; margin-top: 8px;">
+    <div class="signup__container container mt-5 mb-5">
+      <div class="signup__header text-center mt-2">
+        <h1 style="color: white;">
+          <strong>Newsletter Signup</strong>
+        </h1>
+      </div>
+  
+      <div class="signup__email__input mt-5 ps-2 pe-2">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="xyz@example.com" aria-label="Recipient's username" aria-describedby="basic-addon2" style="background-color: rgba(255, 255, 255, 0.801);">
+            <span class="input-group-text" id="basic-addon2">Sign Up</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Blog-->
+  <section class="blog__container container mt-5">
+    <div class="blog__header text-center">
+      <h1 id="Blog"><strong>Blog</strong></h1>
+    </div>
+
+    <div class="blogs__container d-md-flex gap-3">
+      <div class="blog__card text-center mt-5">
+        <div class="blog__img">
+          <img src="img/dog2.jpg" alt="blog image" style="width: 50%;">
+        </div>
+        <div class="blog__title mt-3">
+          <h4>Lorem Ipsum Dolor</h4>
+          Sit Amet <br />
+          <span style="color: rgba(0, 0, 0, 0.377);">07 Feb, 2021</span>
+        </div>
+        <div class="blog__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="blog__btn">
+          <button type="button" class="btn btn__project mt-3">Read More</button>
+        </div>
+      </div>
+
+      <div class="blog__card text-center mt-5">
+        <div class="blog__img">
+          <img src="img/panda.jpg" alt="blog image" style="width: 60%;">
+        </div>
+        <div class="blog__title mt-3">
+          <h4>Lorem Ipsum Dolor</h4>
+          Sit Amet <br />
+          <span style="color: rgba(0, 0, 0, 0.377);">07 Feb, 2021</span>
+        </div>
+        <div class="blog__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="blog__btn">
+          <button type="button" class="btn btn__project mt-3">Read More</button>
+        </div>
+      </div>
+
+      <div class="blog__card text-center mt-5">
+        <div class="blog__img">
+          <img src="img/14.jpg" alt="blog image" style="width: 35%;">
+        </div>
+        <div class="blog__title mt-3">
+          <h4>Lorem Ipsum Dolor</h4>
+          Sit Amet <br />
+          <span style="color: rgba(0, 0, 0, 0.377);">07 Feb, 2021</span>
+        </div>
+        <div class="blog__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="blog__btn">
+          <button type="button" class="btn btn__project mt-3">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <!--Contact-->
+  <section class="contact__master__container w-100" style="background-image: url(contents/yellow-pattern-background-28553.jpg);">
+    <div class="row mt-5 w-100">
+      <div class="col-md-6" style="background-image: url(contents/yellow-pattern-background-28553.jpg);">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163719.19022140634!2d8.496478735022267!3d50.12161963855594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0b3b0d2591f1%3A0xfc6446799462ec98!2sAmazon%20Massendatenspeicher!5e0!3m2!1sen!2sin!4v1626418533542!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-md-6 ps-5 pe-5 pt-5" style="background-image: url(contents/yellow-pattern-background-28553.jpg);">
+        <div class="contact__header">
+          <h1 id="Contact"><strong>Contact</strong></h1>
+        </div>
+        <div class="contact__form">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><strong>NAME</strong></label>
+            <input type="text" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><strong>EMAIL ADDRESS</strong></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"  required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><strong>SUBJECT</strong></label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" >
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"><strong>MESSAGE</strong></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" ></textarea>
+          </div>
+        </div>
+        <button id="btnsubmit">SEND</button>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background-color: rgb(119, 119, 158); color: white;" class="pt-4 pb-2 text-center w-100">
+    <div class="row w-100">
+      <div class="col-md-4 mt-5">
+        <div class="office__address text-center">
+          <div class="add__header">
+            <h5>OFFICE ADDRESS</h5>
+          </div>
+          <div class="add__description">
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing, <br />
+            in voluptate.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-5">
+        <div class="social__handles text-center">
+          <div class="handles__header">
+            <h5>FOLLOW US</h5>
+          </div>
+          <div class="add__description">
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+
+            <br />
+
+            <a href="#" class="fa fa-behance" ></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-whatsapp"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-5">
+        <div class="contact__us text-center">
+          <div class="contactus__header">
+            <h5>CONTACT US</h5>
+          </div>
+          <div class="contactus__description">
+            +123 456 7890 <br />
+            adaptmail@email.com <br />
+            enquiry@adopt.com
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3 mb-2 justify-content-center">
+      <div class="col-md-6 footer__desc">
+        Copyrights Adopt <br>Copyright Act @2021.
+      
+      </div>
+    </div>
+  </footer>
+  
+
+  <!--JQuery CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!--Our JS Script-->
+  <script src="script.js"></script>
+
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
