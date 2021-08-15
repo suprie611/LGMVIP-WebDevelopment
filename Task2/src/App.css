@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+button{
+  color: white;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(68, 85, 49);
+  padding: 12px 10px;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.03;
+ background-color: rgb(113, 118, 117);
+}
+
+.column1{
+  height: 100%;
+  float: left;
+  width: 90%;
+  font-family: Pacifico;
+  color: rgb(68, 85, 49);
+}
+
+.column2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+
+.row{
+  height: 50px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+  background-color: rgb(202, 202, 202);
+}
+
+.box2{
+  margin-left: 100px;
+}
+
+.avatar{
+  border-radius: 25%;
+}
+
+
+.column3{
+  float: left !important;
+  width: 33% !important;
+}
+h1{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 35px; 
+}
+
+
+.profile {
+  border: #A9BA9D;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 300px;
+  margin: 20px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  border-radius: 18px;
+  background-color: #A9BA9D;
+}
+
+.profile:hover{
+  transition:400ms;
+  box-shadow: 3px 3px grey;
+  transform: translateY(-8px);
+}
+.email {
+  color: rgb(59, 52, 52);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size:25px;
+  font-weight: bold;
+}
+
+
+#main {
+  padding: 14px 50px;
+  margin: 0 auto;
+  display: none;
+}
+.loader{
+  margin: 0 auto;
+  
+}
+
+
